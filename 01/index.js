@@ -1,5 +1,7 @@
 // Crie sua função aqui
-
+function sumIsEven(n1, n2) {
+    return (n1 + n2) % 2 === 0
+}
 
 // Não altere as linhas abaixo
 console.log(sumIsEven(2, 3) ? '2 + 3 é par' : '2 + 3 é ímpar')
